@@ -4,7 +4,7 @@
     <div class="footer-stats d-flex align-items-center mt-2 mb-2">
       <i class="far fa-eye fa-fw me-1"></i>
       <span>本站总访问量: </span>
-      <img src="https://jhzmsc.goatcounter.com/count?style=monospaced" alt="统计中" style="margin-left: 5px; filter: grayscale(100%);">
+      <span id="busuanzi_value_site_pv" style="margin-left: 5px; font-weight: bold;">加载中...</span>
     </div>
 
     <div class="footer-copy">
@@ -12,16 +12,7 @@
         &copy; {{ 'now' | date: '%Y' }}
         <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>.
       {% endif %}
-
-      {% if site.data.locales[site.lang].copyright.brief %}
-        <span
-          data-bs-toggle="tooltip"
-          data-bs-placement="top"
-          title="{{ site.data.locales[site.lang].copyright.verbose }}"
-        >
-          {{ site.data.locales[site.lang].copyright.brief }}
-        </span>
-      {% endif %}
+      <span>保留部分权利。</span>
     </div>
 
     <div class="footer-theme">
@@ -31,3 +22,5 @@
     </div>
   </div>
 </footer>
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
