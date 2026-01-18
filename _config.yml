@@ -23,7 +23,7 @@ social:
   name: 飞扬
   email: jhzmsc@outlook.com
   links:
-    # - https://github.com/jhzmsc # 第一条链接为版权所有者链接，已设为你的 GitHub
+    - https://github.com/jhzmsc # 第一条链接为版权所有者链接，已设为你的 GitHub
     # - https://twitter.com/username # 如果有推特可以取消注释
 
 # Web Analytics Settings
