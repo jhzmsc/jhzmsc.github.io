@@ -17,14 +17,15 @@ print(df.head())
 
 ## 2. 数据过滤
 
-```Python
+```python
 # 筛选金额大于 500 的订单
 result = df[df['金额'] > 500]
 result.to_excel("result.xlsx", index=False)
 ```
 
 ## 3. 分组统计
-```Python
+
+```python
 # 统计各部门业绩总和
 summary = df.groupby('部门')['业绩'].sum()
 print(summary)
@@ -32,4 +33,3 @@ print(summary)
 
 欢迎在下方留言交流！
 
-  
