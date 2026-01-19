@@ -1,12 +1,12 @@
 ---
 # the default layout is 'page'
-title: 关于
+title: 关于我
 icon: fas fa-info-circle
 order: 4
 ---
   
-通信工程师  
-爱阅读，好书法，常跑步  
+通信核心网工程师  
+爱阅读、书法、编程、跑步  
 自律笃定，乐于钻研  
   
 人生不满百，如白驹过隙  
@@ -14,12 +14,13 @@ order: 4
 学习，思考，记录，分享  
 
 
-Telecommunications Engineer  
+Telecommunications Core Network Engineer  
   
-Reader Calligrapher Runner
+Enjoy reading, calligraphy, coding, and running.  
   
-Resolute in discipline, rigorous in pursuit.  
+Disciplined and steadfast, passionate about deep research.  
   
-Life is but a fleeting spark, a streak of light across the night.   
+Life is short and time flies swiftly.  
   
-To learn, to reflect, to record, and to share.  
+Learn, Think, Write, Share.  
+  
