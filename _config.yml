@@ -89,6 +89,7 @@ defaults:
       comments: true # 确保文章默认开启评论
       toc: true 
       permalink: /posts/:title/
+      last_modified_at: false
   - scope:
       path: _drafts
     values:
